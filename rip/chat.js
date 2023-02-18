@@ -12,7 +12,7 @@ function sendMessage() {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': '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' // ganti YOUR_API_KEY dengan kunci API Anda
+      'Authorization': 'Bearer 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' // ganti YOUR_API_KEY dengan kunci API Anda
     },
     body: JSON.stringify({
       max_tokens: 100,
